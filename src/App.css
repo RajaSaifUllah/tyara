@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* App.css */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.owners-info-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+nav ul{
+  list-style: none;
+    padding: 0;
+    display:inline-flex;
+    background-color:black;
+    color: white;
+    width:80%;
+  
+}
+
+div h1 {
+  color:blueviolet;
+}
+
+
+nav li {
+  margin: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a {
   color: white;
+  text-decoration: none;
+}
+div h2{
+  text-align:left;
+  color:blueviolet;
+}
+div p{
+  color:black;
+  font-style: italic;
 }
 
-.App-link {
-  color: #61dafb;
+.owners-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Adjust as needed */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.owner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.owner img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  
+}
+
+.contact-person {
+  margin-bottom: 20px;
+}
+.hello{
+  display: inline-flex;
+  padding: 5px;
+  margin-left: 13%;
+  
+}
+/* App.css */
+.middle-class-service {
+  /* Add any additional styling for the container */
+
+  .bus-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the column size as needed */
+    gap: 20px; /* Adjust the gap between items as needed */
   }
-  to {
-    transform: rotate(360deg);
+
+  .bus-item {
+    /* Add any styling for individual bus items */
+    text-align: center; /* Center-align content */
   }
+
+  .bus-item img {
+    width: 80%; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100px; /* Adjust the maximum height as needed */
+  }
+}
+/* App.css */
+.VIP-Service {
+  /* Add any additional styling for the container */
+
+  .bus-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the column size as needed */
+    gap: 20px; /* Adjust the gap between items as needed */
+  }
+
+  .bus-item {
+    /* Add any styling for individual bus items */
+    text-align: center; /* Center-align content */
+  }
+
+  .bus-item img {
+    width: 80%; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100px; /* Adjust the maximum height as needed */
+  }
+}
+.contact-person p{
+  color:blue
+}
+.Ai-version p{
+color: blue;
+}
+.owner h3{
+  color:red
 }
