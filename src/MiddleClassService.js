@@ -1,4 +1,5 @@
 
+
 // MiddleClassService.js
 import './App.css';
 import React from 'react';
@@ -18,25 +19,25 @@ const busData = [
     id: 1,
     name: 'Gujar Badshah',
     imageUrl: Bus1,
-    description: 'Comfortable seating, air-conditioned, and Wi-Fi available.',
+    description: 'Comfortable seating, air-conditioned',
   },
   {
     id: 2,
     name: 'Gujar Hero',
     imageUrl: Bus2,
-    description: 'Spacious interiors, entertainment system, and on-board.',
+    description: 'Spacious interiors, entertainment system',
   },
   {
     id: 3,
     name: 'Gujar Styler',
     imageUrl: Bus3,
-    description: 'Luxurious seating, panoramic windows, and VIP service.',
+    description: 'Luxurious seating, panoramic windows,',
   },
   {
     id: 4,
     name: 'Gujar super',
     imageUrl: Bus4,
-    description: 'Eco-friendly, energy-efficient, and modern design.',
+    description: 'Eco-friendly, energy-efficient, good',
   },
   {
     id: 5,
@@ -48,13 +49,13 @@ const busData = [
     id: 6,
     name: 'Gujar Express',
     imageUrl: Bus6,
-    description: 'Reliable, energy-efficient, and modern design.',
+    description: 'Reliable, energy-efficient, and modern',
   },
   {
     id: 7,
     name: 'Gujar Honda',
     imageUrl: Bus7,
-    description: 'Comfortable seating, air-conditioned, and Wi-Fi available.',
+    description: 'Comfortable seating, air-conditioned',
   },
   {
     id: 8,
@@ -66,7 +67,7 @@ const busData = [
     id: 9,
     name: 'Gujar Fly',
     imageUrl: Bus9,
-    description: 'You will feel just like an airplane you are flying',
+    description: 'You will feel just like an airplane ',
   },
   {
     id: 10,
