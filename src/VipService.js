@@ -1,4 +1,5 @@
 
+
 // VipService.js
 import './App.css';
 import React from 'react';
@@ -19,25 +20,25 @@ const busData = [
     id: 1,
     name: 'Faisal Movers',
     imageUrl: Bus11, // Use Bus1 for the first image
-    description: 'Comfortable seating, air-conditioned, and Wi-Fi available.',
+    description: 'Comfortable seating, air-conditioned,',
   },
   {
     id: 2,
     name: 'Heo',
     imageUrl: Bus12,
-    description: 'Spacious interiors, entertainment system, and on-board.',
+    description: 'Spacious interiors, entertainment system, ',
   },
   {
     id: 3,
     name: 'Faisal Movers special',
     imageUrl: Bus13,
-    description: 'Luxurious seating, panoramic windows, and VIP service.',
+    description: 'Luxurious seating, panoramic windows, ',
   },
   {
     id: 4,
     name: 'Bilal travellers',
     imageUrl: Bus14,
-    description: 'Eco-friendly, energy-efficient, and modern design.',
+    description: 'Eco-friendly, energy-efficient, and modern',
   },
   {
     id: 5,
@@ -49,13 +50,13 @@ const busData = [
     id: 6,
     name: 'Zoomer',
     imageUrl: Bus16,
-    description: 'Reliable, energy-efficient, and modern design.',
+    description: 'Reliable, energy-efficient, and modern ',
   },
   {
     id: 7,
     name: 'Tracker',
     imageUrl: Bus17,
-    description: 'Comfortable seating, air-conditioned, and Wi-Fi available.',
+    description: 'Comfortable seating, air-conditioned, ',
   },
   {
     id: 8,
@@ -67,7 +68,7 @@ const busData = [
     id: 9,
     name: ' Flying corner',
     imageUrl: Bus19,
-    description: 'You will feel just like an airplane you are flying',
+    description: 'You will feel just like an airplane ',
   },
   {
     id: 10,
