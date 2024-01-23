@@ -1,29 +1,32 @@
 
+
 // OwnersInfo.js
 import saif from "./saif.jpeg";
 import talha from "./talha.jpeg";
 import React from 'react';
+
 const OwnersInfo = () => {
   return (
     <div className="images">
       <h2>Our Owners</h2>
-<div className="hello">
-      <div className="owner">
-        <img src={saif} alt="Owner 1" />
-        <div>
-          <h3>Wada Para</h3>
-          <p>Education: Bs Software Engineering</p>
+      <div className="owner-container">
+        <div className="owner">
+          <img src={saif} alt="Owner 1" />
+          <div className="owner-info">
+            <h3>Wada Para</h3>
+            <p>Education: BSSE</p>
+          </div>
+        </div>
+
+        <div className="owner">
+          <img src={talha} alt="Owner 2" />
+          <div className="owner-info">
+            <h3>Nika Para</h3>
+            <p>Education: BSSE</p>
+          </div>
         </div>
       </div>
 
-      <div className="owner">
-        <img src={talha} alt="Owner 2" />
-        <div>
-          <h3>Nika Para</h3>
-          <p>Education: BS Software Engineering</p>
-        </div>
-      </div>
-      </div>
       <h2>About Gugar Tyara</h2>
       <p>
         Gugar Tyara is a premier bus service that offers reliable transportation services. 
